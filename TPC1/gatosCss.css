@@ -1,0 +1,95 @@
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.catImg {
+  float: left;
+    min-height: 73vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),url(https://media-manager.noticiasaominuto.com/1920/1588164881/naom_5cacad8def7ed.jpg?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjozNTk1LCJjcm9wSGVpZ2h0IjoyMDIxLCJjcm9wWCI6MCwiY3JvcFkiOjd9fQ==);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-size: cover;
+    background-position: left;
+}
+
+.catImgRightText {
+  font-size:40px;
+  color:black;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 150px;
+}
+
+.catImgLeftText {
+  font-size:60px;
+  color:white;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 100px;
+}
+.catImgLeftText h1{
+  font-size:4em;
+  line-height:60px;
+}
+.catImgRightText h2{
+  font-size:3rem;
+  font-weight:bold;
+  line-height:50px;
+}
+.w3-row .w3-col.m3:nth-child(1){
+  color:Red;
+}
+.w3-row .w3-col.m3:nth-child(2){
+  color:orange;
+}
+.w3-row .w3-col.m3:nth-child(3){
+  color:blue;
+}
+.w3-row .w3-col.m3:nth-child(4){
+  color:green;
+}
+@media (max-width: 991px){
+  .catImg {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .catImgLeftText {
+    padding-bottom: 0px;
+  }
+  .catImgRightText {
+    padding-bottom: 50px;
+  }  
+  .catImg {
+      padding: 0 50px;
+  }
+  .catImgLeftText h1{
+    font-size:3rem;
+  }
+  .catImgRightText h2{
+    font-size:2rem;
+    font-weight:bold;
+    line-height:50px;
+    width: 100%;
+    text-align: right;
+  }
+}
+
+@media (max-width: 650px){
+  .catImg {
+    min-height: 35vh;
+  }
+ 
+}
