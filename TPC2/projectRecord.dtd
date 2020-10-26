@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT projectRecord (header, workTeam, abstract, deliverables, date ) >
+
+<!ELEMENT header (title, subtitle?, beginDate, endDate, supervisorText, supervisorLink) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT subtitle (#PCDATA) >
+<!ELEMENT beginDate (#PCDATA) >
+<!ELEMENT endDate (#PCDATA) >
+<!ELEMENT supervisorText (#PCDATA) >
+<!ELEMENT supervisorLink (#PCDATA) >
+
+<!ELEMENT workTeam (student)+ >
+<!ELEMENT student (nome, email, url?) >
+<!ELEMENT nome (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT url (#PCDATA) >
+<!ATTLIST student 
+    id ID #REQUIRED>
+
+<!ELEMENT abstract (paragraph)+ >
+<!ELEMENT paragraph (#PCDATA | innerTextSytle | link)* >
+<!ELEMENT innerTextSytle (#PCDATA | innerTextSytle)* >
+<!ELEMENT link (#PCDATA) >
+<!ATTLIST innerTextSytle 
+    style (bold| italic | underline ) "none">
+    
+<!ELEMENT deliverables (link)+ >
+<!ELEMENT link (#PCDATA) >
+
+
+<!ELEMENT date (#PCDATA) >

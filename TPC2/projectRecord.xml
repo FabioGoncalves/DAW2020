@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projectRecord SYSTEM "projectRecord.dtd">
+
+<projectRecord>
+    <header>
+        <title>Fábio Gonçalves</title>
+        <subtitle>Project Record</subtitle>
+        <beginDate>23/10/2020</beginDate>
+        <endDate>26/10/2020</endDate>
+        <supervisorText>JCR</supervisorText>
+        <supervisorLink>jcr@di.uminho.pt</supervisorLink>
+    </header>
+    <workTeam>
+        <student id ="PG42827">
+            <nome>Fábio Gonçalves</nome>
+            <email>Project Record</email>
+            <url>23/10/2020</url>
+        </student>
+    </workTeam>
+    <abstract>
+        <paragraph>
+            <innerTextSytle style="bold">Iniciação do projeto de <innerTextSytle style="italic">dtd</innerTextSytle> e <innerTextSytle style="italic">xml</innerTextSytle> </innerTextSytle>
+        </paragraph>
+        <paragraph>
+            Com a realização deste projeto 
+                pretendo demonstrar a utilização dos dtds em ficheiros xml.
+            Os ficheiros dtds servem para criar uma espécie de <innerTextSytle style="underline">regras</innerTextSytle> na construção de um ficheiro xml.
+        </paragraph>
+        <paragraph>
+            Primeiramente criei o ficheiro Dtd com as regras necessárias para a criação de um <innerTextSytle style="italic">Project Record</innerTextSytle>, 
+            sendo este constituido por header, workTeam, abstract, deliverables e a data. Para todos estes tópicos foram necessárias regras adicionais, por exemplo
+            para o tópico <innerTextSytle style="bold">header</innerTextSytle> ter a constituição presente foram aplicadas regras que obrigam a introdução de campos, tais como: 
+            <innerTextSytle style="italic">title, subtitle, beginDate, endDate, supervisorText, supervisorLink.</innerTextSytle>
+            O mesmo método foi aplicado em todos os outros tópicos para que este xml tivesse esta mesma estrutura.
+        </paragraph>
+        <paragraph>
+            Podes consultar todo o desenvolvimento deste trabalho prático em: <link>https://github.com/FabioGoncalves/DAW2020/tree/master/TPC2</link>
+        </paragraph>
+    </abstract>
+    <deliverables>
+        <link>Página Gatos Html : https://github.com/FabioGoncalves/DAW2020/tree/master/TPC1</link>
+        <link>Trabalho prático dtd e xml : https://github.com/FabioGoncalves/DAW2020/tree/master/TPC2</link>
+        
+    </deliverables>
+
+    <date>26/10/2020</date>
+</projectRecord>
