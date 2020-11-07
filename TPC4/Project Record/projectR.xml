@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "projectRecord.dtd">
+<pr>
+    <meta>
+        <key>FabioGonçalves_DAW_TPC4</key>
+        <title>TPC4 - Server Node.js com XSLT e HTML (ARQELEM).</title>
+        <bDate>05/11/2020</bDate>
+        <eDate>07/11/2020</eDate>
+        <supervisor>JCR</supervisor>
+        <supervisor>jcr@di.uminho.pt</supervisor>
+    </meta>
+    <team>
+        <member id="PG42827">
+            <nome>Fábio Gonçalves</nome>
+            <email>Project Record</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Dado o <i>dataset</i> arq.xml, fornecido pelo docente da cadeira foi nos proposta criar um servidor em <i>Node.js </i> com integração dos ficheiros xsl e xml<b>arq.xsl</b> e <b>arq.xml</b></p>
+        <p>Este trabalho teve muita importância para aprender como desenvolver servidores em <i>javascript</i> puro e duro. Para além disto, foi também importante a integração do ficheiro xsl, o que nos permite juntar dois mundos que de muito idêntico têm</p>
+        <p>Como começar o servidor node.js? 
+            -> Primeiro terá que introduzir o seguinte comando na linha de comandos.<i>node server.js</i> <u>(Terá que estar sobre o diretório do ficheiro)</u>
+            -> Mudar o elemento arquiositio, clicando nas referências, seguinte ou anterior, ou então mudando o número do ARq presente no url<link url="http://localhost:7777/arqs/1"></link>
+        </p>
+        <p>Para concluir e como já referido acima, com este trabalho é de extrema importância pois permite a aprendizagem de criar servidores em javascript e reforçar a aprendizagem de xsl</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC1">Página HTML Gatos com Css</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC2">Project Record: Com DTD e XML</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC3">Xslt e Xml (ArqElem)</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC4">Node Server with ArqElem</link>
+    </deliverables>
+</pr>
