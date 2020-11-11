@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "projectRecord.dtd">
+<pr>
+    <meta>
+        <key>FabioGonçalves_DAW_TPC4</key>
+        <title>TPC4 - Server Node.js com XSLT e HTML (ARQELEM).</title>
+        <bDate>11/11/2020</bDate>
+        <eDate>11/11/2020</eDate>
+        <supervisor>JCR</supervisor>
+        <supervisor>jcr@di.uminho.pt</supervisor>
+    </meta>
+    <team>
+        <member id="PG42827">
+            <nome>Fábio Gonçalves</nome>
+            <email>Project Record</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Este trabalho incidiu sobre o pacote <i>json-server</i> e a criação de um servidor para fazer a ligação entre o <i>json-server</i> e o cliente final</p>
+        <p>Foram realizados os seguintes trabalhos:
+            <b>Fazer correspondência com o url /alunos e os seus ids</b>
+            <b>Fazer correspondência com o url /cursos e os seus ids</b>
+            <b>Fazer correspondência com o url /instrumentos e os seus ids</b>
+            <b>Fazer a paginação em todas as <i>routes</i></b>
+        </p>
+        <p>Como começar o servidor node.js? 
+            -> Primeiro terá que introduzir o seguinte comando na linha de comandos.<i>node server.js</i> <u>(Terá que estar sobre o diretório do ficheiro)</u>
+        </p>
+        <p>Como começar o json-server? 
+            -> Primeiro terá que introduzir o seguinte comando na linha de comandos.<i>json-server --watch db.js</i> <u>(Terá que estar sobre o diretório do ficheiro)</u>
+        </p>
+        <p>Para concluir e como já referido acima, com este trabalho é de extrema importância pois permite a aprendizagem de criar servidores em <u>javascript</u> e a sua interligação com o <i>json-server</i></p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC1">Página HTML Gatos com Css</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC2">Project Record: Com DTD e XML</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC3">Xslt e Xml (ArqElem)</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC4">Node Server with ArqElem</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC5">Node Server and Json-server with Dataset and Pagination</link>
+    </deliverables>
+</pr>
