@@ -1,0 +1,34 @@
+{
+  "alunos": [
+    {
+      "nome": "Fernando Pessoa",
+      "id": "PG12345",
+      "curso": "Literatura 2",
+      "git": "http://github.com"
+    },
+    {
+      "nome": "Alves dos Reis",
+      "id": "PG22345",
+      "curso": "Literatura",
+      "git": ""
+    },
+    {
+      "nome": "Clara Ribeiro",
+      "id": "A88234",
+      "curso": "Música",
+      "git": ""
+    },
+    {
+      "nome": "Ana Luisa",
+      "id": "PG44567",
+      "curso": "Lirico",
+      "git": ""
+    },
+    {
+      "nome": "Clara Ribeiro Sousa",
+      "curso": "Música",
+      "git": "",
+      "id": "KFwKbEm"
+    }
+  ]
+}

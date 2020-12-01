@@ -1,0 +1,31 @@
+extends layout
+
+block content
+    .w3-card-4(style="width:100%")
+      header.w3-container
+      .w3-container 
+        hr
+        - if (student.img != "none")
+          img.image(src='/assets/' + student.img, style="width:50px;height:50px;")
+        - else
+          img.image(src='/assets/default.png', style="width:50px;height:50px;")
+        
+        h3 #{student.nome} 
+            a(href=student.git, style="font-size:20px") 
+                i.fa.fa-github(aria-hidden='true')      
+        p #{student.numero}
+        a(href='/students/edit/' + student.numero, style="font-size:20px;float:right;line-height:38px") 
+          i.fa.fa-edit(aria-hidden='true')      
+           
+        hr
+        table.w3-table-all
+            tr 
+              th TPC Nº
+              th Status
+            each tpc, index in student.tpc
+              tr
+                td= index+1
+                td= (tpc == 0 ? 'Not Done' : 'Done')
+        hr
+      button.w3-button.w3-block.w3-dark-grey 
+        a(href='/students') Back to List

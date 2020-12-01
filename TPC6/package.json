@@ -1,0 +1,21 @@
+{
+  "name": "galunos",
+  "version": "1.0.0",
+  "description": "Gestão de Alunos (DAW)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devstart": "nodemon server.js"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "json-server": "^0.16.3",
+    "nodemon": "^2.0.6"
+  }
+}
