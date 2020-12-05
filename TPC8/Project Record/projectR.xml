@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "projectRecord.dtd">
+<pr>
+    <meta>
+        <key>FabioGonçalves_DAW_TPC8</key>
+        <title>TPC7 - Server Node.js Express.</title>
+        <bDate>05/12/2020</bDate>
+        <eDate>05/12/2020</eDate>
+        <supervisor>JCR</supervisor>
+        <supervisor>jcr@di.uminho.pt</supervisor>
+    </meta>
+    <team>
+        <member id="PG42827">
+            <nome>Fábio Gonçalves</nome>
+            <email>Project Record</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Este trabalho incidiu sobre a criação de um servidor para fazer upload de ficheiros</p>
+        <p>Foram realizados os seguintes trabalhos:
+            <b>Criação de vários inputs para a inserção de vários ficheiros de variadas localizações</b>
+            
+        </p>
+        <p>Como começar o servidor node.js? 
+            -> Primeiro terá que introduzir o seguinte comando na linha de comandos.<i>node serverFile.js</i> <u>(Terá que estar sobre o diretório do ficheiro)</u>
+        </p>
+        <p>Para concluir e como já referido acima, com este trabalho é de extrema importância pois permite a aprendizagem de criar servidores em <u>javascript Express</u> e o respetivo <i>upload</i> de ficheiros</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC1">Página HTML Gatos com Css</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC2">Project Record: Com DTD e XML</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC3">Xslt e Xml (ArqElem)</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC4">Node Server with ArqElem</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC5">Node Server and Json-server with Dataset and Pagination</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC7">Node Server with Mongo and Express</link>
+        <link url="https://github.com/FabioGoncalves/DAW2020/tree/master/TPC8">Node Server with Express and Multer (file upload)</link>
+
+    </deliverables>
+</pr>
